@@ -27,7 +27,7 @@ public class App {
      * @return сумму элементов массива
      * @throws ArraySizeException
      */
-    public int getSumArray(String[][] array) throws ArraySizeException {
+    public int getSumArray(String[][] array) throws ArraySizeException{
         if(array.length != 4)
             throw new ArraySizeException(String.format("array[%d][%d]",array.length,array[0].length));
         else {
